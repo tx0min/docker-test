@@ -21,7 +21,7 @@ services:
       - db
     image: tx0min/docker-test
     ports:
-      - "8000:80"
+      - "9090:80"
     restart: always
     networks:
       - backend
